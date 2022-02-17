@@ -1,0 +1,139 @@
+        .header .form-control {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            box-shadow: none;
+        }
+        
+        .header form .btn {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .navbar-toggler span:first-child {
+            display: none;
+        }
+        
+        .navbar-toggler span:last-child {
+            display: block;
+        }
+        
+        .navbar-toggler.collapsed span:first-child {
+            display: block;
+        }
+        
+        .navbar-toggler.collapsed span:last-child {
+            display: none;
+        }
+        
+        .navbar .container .icon-apple {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .icon-apple {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .navbar .fa-apple {
+            color: rgba(255, 255, 255, .55);
+        }
+        
+        .navbar .fa-apple:hover {
+            color: #fff;
+        }
+        
+        .nav-item .flag,
+        .nav-item .flags {
+            max-width: 25px;
+            width: 100%;
+        }
+        
+        .nav-item .flags {
+            margin-right: 5px;
+        }
+        
+        .accordion-button .collapsed {
+            position: relative;
+        }
+        
+        .accordion-button::after {
+            position: absolute;
+            margin-left: none;
+            left: 0;
+            transform: rotate(270deg);
+        }
+        
+        .accordion-button:not(.collapsed)::after {
+            transform: rotate(360deg);
+        }
+        
+        .carousel-inner .carousel-item img,
+        .carousel-item .active img {
+            width: 100%;
+            height: 350px;
+        }
+        
+        .carousel-inner{
+            padding: 0;
+        }
+        .carousel-control-prev .fa-arrow-circle-left:before,
+        .carousel-control-next .fa-arrow-circle-right:before {
+            color: #fff;
+            font-size: 22px;
+            font-weight: 700;
+            opacity: 1;
+        }
+        
+        .carousel-indicators [data-bs-target] {
+            width: 10px;
+            height: 10px;
+            border: 3px solid #fff;
+            border-radius: 50%;
+            background: transparent;
+        }
+        
+        .carousel-indicators .active {
+            background: #fff;
+        }
+        
+        .products .card-img-top {
+            padding: 16px 16px 0 16px;
+            width: 100%;
+            max-height: 200px;
+            height: 100%;
+            object-fit: cover;
+            max-height: 138px;
+        }
+        
+        .footer {
+            padding: 10px 0 8px;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .footer .social i {
+            font-size: 23px;
+            color: #fff;
+            background: blue;
+            padding: 5px;
+            border-radius: 20%;
+        }
+        
+        .card:hover {
+            transform: translateY(-20px);
+            transition: 1s;
+        }
+        
+        .social i:hover {
+            color: blue;
+            background: #fff;
+            transform: translateY(-10px);
+            transition: 0.5s linear;
+        }
